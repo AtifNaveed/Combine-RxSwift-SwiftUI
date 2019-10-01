@@ -1,4 +1,4 @@
-# Combine-RxSwift-SwiftUI
+# Combine using SwiftUI & MVVM --VS-- RxSwift
 - RxSwift
 - Combine
 - SwiftUI

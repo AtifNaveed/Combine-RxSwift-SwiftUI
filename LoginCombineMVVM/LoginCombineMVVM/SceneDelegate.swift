@@ -27,6 +27,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             window.rootViewController = UIHostingController(rootView: loginView)
+            
+            //UIHostingController(rootView: AppRootView(auth: false))
+
             self.window = window
             window.makeKeyAndVisible()
         }

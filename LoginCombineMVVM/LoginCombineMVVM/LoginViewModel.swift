@@ -15,8 +15,9 @@ class LoginViewModel: ObservableObject, Identifiable {
     
     @Published var email: String = ""
     @Published var password: String = ""
+    @Published var titleColor: UIColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+    @Published var btnColor: UIColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
     @Published var isValid: Bool = false
-    @Published var btnColor: UIColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
     private var isValidEmail: Bool = false
     private var isValidPassword: Bool = false
 
@@ -52,7 +53,8 @@ class LoginViewModel: ObservableObject, Identifiable {
 
     func validate() {
         isValid = (isValidEmail && isValidPassword) ? true : false
-        btnColor = isValid ? UIColor.green : UIColor.white
+        titleColor = isValid ? UIColor.green : UIColor.white
+        btnColor = isValid ? UIColor.black : UIColor.gray
     }
 
 }

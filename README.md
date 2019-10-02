@@ -1,4 +1,4 @@
-# Combine & RxSwift
+# Combine & RxSwift side by side
 - RxSwift
 - Combine
 - SwiftUI

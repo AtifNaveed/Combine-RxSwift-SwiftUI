@@ -11,3 +11,6 @@
 
 
 Same exmaple to explain RxSwift & Combine
+
+## Author
+AtifNaveed, atif.gcucs@gmail.com

@@ -23,7 +23,6 @@ struct LoginView: View {
 }
 
 private extension LoginView {
-    
     var textFldEmail: some View {
         NavigationView {
             
@@ -60,14 +59,12 @@ private extension LoginView {
                     .navigationBarTitle("Login")
                     .padding(.all)
                     .background(Color(vm.btnColor))
-                        .disabled(!vm.isValid)
-                        .cornerRadius(0.0)
-                        .navigationBarHidden(true)
+                    .disabled(!vm.isValid)
+                    .cornerRadius(0.0)
+                    .navigationBarHidden(true)
                 }
-                //.background(Color.red)
-                .padding(EdgeInsets(top: 0, leading: 25, bottom: 2, trailing: 25))
-                
-                
+                    //.background(Color.red)
+                    .padding(EdgeInsets(top: 0, leading: 25, bottom: 2, trailing: 25))
                 
                 
                 VStack(alignment: .leading) {
@@ -101,8 +98,8 @@ private extension LoginView {
                         .background(bgColor)
                     
                 }
-                //.background(Color.green)
-                .padding(EdgeInsets(top: 30, leading: 25, bottom: 2, trailing: 25))
+                    //.background(Color.green)
+                    .padding(EdgeInsets(top: 30, leading: 25, bottom: 2, trailing: 25))
                 
                 Spacer()
                 

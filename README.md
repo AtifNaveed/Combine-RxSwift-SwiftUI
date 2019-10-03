@@ -1,4 +1,4 @@
-# Combine & RxSwift side by side
+# Combine | RxSwift | MVVM
 - RxSwift
 - Combine
 - SwiftUI

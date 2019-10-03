@@ -60,7 +60,7 @@ private extension LoginView {
                     .navigationBarTitle("Login")
                     .padding(.all)
                     .background(Color(vm.btnColor))
-                        //.disabled(!vm.isValid)
+                        .disabled(!vm.isValid)
                         .cornerRadius(0.0)
                         .navigationBarHidden(true)
                 }

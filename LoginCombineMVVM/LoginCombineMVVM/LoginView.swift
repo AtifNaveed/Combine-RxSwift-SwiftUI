@@ -36,7 +36,7 @@ private extension LoginView {
                             .cornerRadius(0.0)
                     }                            .clipShape(Rectangle())
                         .overlay(Rectangle()
-                            .stroke(Color.black, lineWidth: 1))
+                            .stroke(Color(vm.txtFieldEmailColor), lineWidth: 1))
                     
                     HStack {
                         SecureField("Password", text: $vm.password)
@@ -47,7 +47,7 @@ private extension LoginView {
                     }
                     .clipShape(Rectangle())
                     .overlay(Rectangle()
-                    .stroke(Color.black, lineWidth: 1))
+                    .stroke(Color(vm.txtFieldPasswordColor), lineWidth: 1))
                     
                     
                     

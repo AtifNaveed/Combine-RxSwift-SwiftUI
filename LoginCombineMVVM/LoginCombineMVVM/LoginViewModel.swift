@@ -17,9 +17,13 @@ class LoginViewModel: ObservableObject, Identifiable {
     @Published var password: String = ""
     @Published var titleColor: UIColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
     @Published var btnColor: UIColor = #colorLiteral(red: 27/255, green: 109/255, blue: 192/255, alpha: 0.5)
+    @Published var txtFieldEmailColor: UIColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+    @Published var txtFieldPasswordColor: UIColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
     @Published var isValid: Bool = false
     private var isValidEmail: Bool = false
     private var isValidPassword: Bool = false
+    private var errorColor: UIColor = #colorLiteral(red: 1, green: 0, blue: 0, alpha: 1)
+    private var successColor: UIColor = #colorLiteral(red: 0, green: 0.5090942979, blue: 0, alpha: 1)
     
     
     init(scheduler: DispatchQueue = DispatchQueue(label: "LoginViewModel")) {
@@ -54,6 +58,9 @@ class LoginViewModel: ObservableObject, Identifiable {
         isValid = (isValidEmail && isValidPassword) ? true : false
         //        titleColor = isValid ? UIColor.white : UIColor.white
         btnColor = isValid ? UIColor(red: 27/255, green: 109/255, blue: 192/255, alpha: 1.0) : UIColor(red: 27/255, green: 109/255, blue: 192/255, alpha: 0.5)
+        txtFieldEmailColor = isValidEmail ? successColor : errorColor
+        txtFieldPasswordColor = isValidPassword ? successColor : errorColor
+  
     }
     
 }

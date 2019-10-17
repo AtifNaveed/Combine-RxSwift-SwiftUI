@@ -10,7 +10,7 @@
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1565168133/2_pxxgqi.png)
 
 
-Same exmaple to explain RxSwift & Combine
+Typical Login exmaple to explain RxSwift & Combine usig MVVM
 
 ## Author
 AtifNaveed, atif.gcucs@gmail.com

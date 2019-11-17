@@ -1,5 +1,5 @@
 # RxSwift | Combine | MVVM | SwiftUI
-## Typical login example using:
+## Typical Login Example with:
 - RxSwift
 - Combine
 - SwiftUI
@@ -10,7 +10,7 @@
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1565168133/2_pxxgqi.png)
 
 
-Typical Login exmaple to explain an compare both RxSwift & Combine usig MVVM
+Typical login exmaple to explain an compare both RxSwift & Combine usig MVVM
 
 ## Author
 AtifNaveed, atif.gcucs@gmail.com

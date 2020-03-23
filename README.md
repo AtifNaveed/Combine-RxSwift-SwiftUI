@@ -1,5 +1,5 @@
 # RxSwift | Combine | MVVM | SwiftUI
-## Typical login example:
+## Typical login example using following:
 - RxSwift
 - Combine
 - SwiftUI
